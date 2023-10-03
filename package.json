@@ -1,0 +1,26 @@
+{
+  "name": "unit-tests-hw",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "unit testing example",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "c8 npm test",
+    "lint": "eslint ./ --fix",
+    "prepare": "husky install"
+  },
+  "author": "Igor Markelov",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "eslint-config-google": "^0.14.0"
+  },
+  "dependencies": {
+    "c8": "^8.0.1",
+    "chai": "^4.3.10",
+    "husky": "^8.0.3",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3"
+  }
+}
