@@ -38,9 +38,9 @@ export class NumbersValidator {
   }
 
   /**
-       * @param {Array<Number>} arrayOfNumbers array of numbers to go through
-       * @return {Boolean} true if all are numbers
-       */
+		 * @param {Array<Number>} arrayOfNumbers array of numbers to go through
+		 * @return {Boolean} true if all are numbers
+		 */
   isAllNumbers(arrayOfNumbers) {
     if (!Array.isArray(arrayOfNumbers)) {
       throw new Error(`[${arrayOfNumbers}] is not an array`);
@@ -49,10 +49,10 @@ export class NumbersValidator {
   }
 
   /**
-       * Check if passed value is integer
-       * @param n - value
-       * @return {boolean} true if value is integer
-       */
+		 * Check if passed value is integer
+		 * @param n - value
+		 * @return {boolean} true if value is integer
+		 */
   isInteger(n) {
     if (typeof n !== 'number') {
       throw new Error(`[${n}] is not a number`);
